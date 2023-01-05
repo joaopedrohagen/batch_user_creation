@@ -1,10 +1,24 @@
 #!/bin/bash
 
-
-
-
-
-
+##################################################################
+#----------------------------------------------------------------#
+# Nome do Script: batch_user_creation.sh                         #
+#----------------------------------------------------------------#
+# Descrição: Esse script automatiza a criação de usuários,       #
+# criando um diálogo onde é inserido o user, o nome e a senha    #
+# o que dispensa todo o comando de criação.                      #
+# Junto é criada a pasta home e a senha é criptografada          #
+# com o openssl                                                  #
+#----------------------------------------------------------------#
+# Site: https://hagen.dev.br                                     #
+#----------------------------------------------------------------#
+# Autor: João Pedro Hagen <joaopedro@hagen.dev.br>               #
+# ---------------------------------------------------------------#
+# Histórico:                                                     #
+#   V1.0.1 2022-12-11                                            #
+#       -Initial release.                                        #
+#----------------------------------------------------------------#
+##################################################################
 
 
 INTRO () {
